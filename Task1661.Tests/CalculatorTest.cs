@@ -29,13 +29,12 @@ namespace Task1661.Tests
             var calculatorTest = new Calculator();
             Assert.That(calculatorTest.Miltiplication(20, 10) == 200);
         }
+
         [Test]
         public void Division_MustReturnCorrectValue()
         {
             var calculatorTest = new Calculator();
             Assert.That(calculatorTest.Division(200, 10) == 20);
         }
-
-
     }
 }
